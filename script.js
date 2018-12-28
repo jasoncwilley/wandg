@@ -230,7 +230,7 @@ window.onload = function() {
       if(this.playerTurn == 1) {
         this.playerTurn = 2;
           $('.playersturn1').css({"border-width": '5px', "border-color": '#F1F1F1', 'border-style': 'dotted', 'margin-top': '20px'});
-          $('.playersturn2').html("<h3>Wyatt</h3>");
+          $('.playersturn2').html("<h3>Grace</h3>");
           $('.playersturn2').css({"border-color": '#F1F1F1'});
         return;
       }
@@ -238,7 +238,7 @@ window.onload = function() {
         this.playerTurn = 1;
 
         $('.playersturn2').css({"border-width": '5px', "border-color": '#0033a0', 'border-style': 'dotted', 'margin-top':'20px'});
-        $('.playersturn1').html("<h3>Grace</h3>");
+        $('.playersturn1').html("<h3>Wyatt</h3>");
         $('.playersturn1').css({"border-color": '#0033a0'});
       }
     },
