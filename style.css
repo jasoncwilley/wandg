@@ -73,7 +73,7 @@ div.stats {
     display: inline-block;
     width: 50%;
     float: left;
-    background-color: #0033a0;
+    background-color: #F1F1F1;
     box-sizing: border-box;
     padding: 0 15px 20px;
     border-top-left-radius: 3px;
@@ -81,7 +81,7 @@ div.stats {
     div.stats #player1 .capturedPiece {
       width: 3vmin;
       height: 3vmin;
-      background-color: #F1F1F1;
+      background-color: #0033a0;
       background-size: 65%;
       background-repeat: no-repeat;
       background-position: center;
@@ -96,7 +96,7 @@ div.stats {
     display: inline-block;
     width: 50%;
     float: left;
-    background-color: #F1F1F1;
+    background-color: #0033a0;
     box-sizing: border-box;
     padding: 0 15px 20px;
     border-top-right-radius: 3px;
@@ -104,7 +104,7 @@ div.stats {
     div.stats #player2 .capturedPiece {
       width: 3vmin;
       height: 3vmin;
-      background-color: #0033a0;
+      background-color: #F1F1F1;
       background-size: 65%;
       background-repeat: no-repeat;
       background-position: center;
