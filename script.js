@@ -229,16 +229,20 @@ window.onload = function() {
     changePlayerTurn: function () {
       if(this.playerTurn == 1) {
         this.playerTurn = 2;
-        $('.turn').css({"background-image":"url('http://i64.tinypic.com/2hoy49x.jpg')","margin-top": '12px',"margin-left": '20px', "background-repeat": 'no-repeat', "width":'50%', "float":'right'});
+          $('.playersturn1').css({"border-width": '5px', "border-color": '#F1F1F1', 'border-style': 'dotted', 'margin-top': '20px'});
+          $('.playersturn2').html("<h3>Grace</h3>");
+          $('.playersturn2').css({"border-color": '#F1F1F1'});
         return;
       }
       if(this.playerTurn == 2) {
         this.playerTurn = 1;
-        $('.turn').css({"background-image":"url('http://i64.tinypic.com/2hoy49x.jpg')","margin-top": '12px',"background-repeat": 'no-repeat', "margin-left": '20px', "width":'100%', "float": 'left'});
 
+        $('.playersturn2').css({"border-width": '5px', "border-color": '#0033a0', 'border-style': 'dotted', 'margin-top':'20px'});
+        $('.playersturn1').html("<h3>Wyatt</h3>");
+        $('.playersturn1').css({"border-color": '#0033a0'});
       }
     },
-    //reset the game
+//reset the game
     clear: function () {
       location.reload();
     }
